@@ -1,0 +1,151 @@
+/* General Settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.app-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 60px; /* Increased padding */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 50cm; /* Increased width */
+    height: 75cap;
+    max-width: 90%; /* Adjusted for responsiveness */
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem; /* Increased font size */
+    color: #4CAF50;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 1.2rem; /* Increased font size */
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Form Styling */
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+textarea {
+    padding: 20px;
+    font-size: 18px; /* Increased font size */
+    width: 100%;
+    height: 200px; /* Increased height */
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    resize: none;
+    transition: all 0.3s;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0px 0px 8px rgba(76, 175, 80, 0.3);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px; /* Increased font size */
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #45a049;
+    box-shadow: 0px 8px 15px rgba(76, 175, 80, 0.3);
+}
+
+/* Results Section */
+.result-container {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.result-container h2 {
+    font-size: 2rem; /* Increased font size */
+    color: #4CAF50;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.result-container p {
+    background-color: #f9f9f9;
+    padding: 20px; /* Increased padding */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.1rem; /* Increased font size */
+    color: #333;
+    word-wrap: break-word;
+}
+
+.result-container span.spelling-error {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    cursor: pointer;
+    position: relative;
+}
+
+.result-container span.spelling-error:hover::after {
+    content: 'Click to see suggestions';
+    position: absolute;
+    background: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    top: -30px;
+    left: 0;
+    font-size: 12px;
+}
+
+.result-container span.grammar-error {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    cursor: pointer;
+    position: relative;
+}
+
+.result-container span.grammar-error:hover::after {
+    content: 'Click to see grammar suggestions';
+    position: absolute;
+    background: rgba(0, 0, 255, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    top: -30px;
+    left: 0;
+    font-size: 12px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 1rem; /* Increased font size */
+    color: #777;
+}
