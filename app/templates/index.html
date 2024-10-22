@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinhala Spelling and Grammar Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <h1>සිංහල අක්ෂර නිවැරදි කරනය හා ව්‍යාකරණ පරික්ෂනය</h1>
+            <h1>Sinhala Spelling Corrector and Grammar Checker</h1>
+            <p>Improve your Sinhala writing with real-time spelling and grammar suggestions</p>
+        </div>
+
+        <form method="POST" action="/check">
+            <textarea name="input_text" placeholder="Enter your Sinhala text...">{{ request.form.get('input_text', '') }}</textarea>
+            <div class="button-container">
+                <button type="submit">Check Text</button>
+                <button type="button" id="correct-text-btn">Auto Correct</button> <!-- Auto Correct button -->
+                <button type="button" id="clear-text-btn">Clear Text</button>
+            </div>
+        </form>
+
+        <div class="result-container">
+            <h2>Checked Text</h2>
+            <p>{{ corrected_text|safe if corrected_text else request.form.get('input_text', ' ') }}</p>
+        </div>
+
+        <footer>
+            <p>Powered by Sinhala Spelling Corrector and Grammar Checker © 2024</p>
+            <p>Created by Anuja & Gayantha @ UOJ</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='suggestions.js') }}"></script> 
+
+    <script>
+        document.getElementById('clear-text-btn').addEventListener('click', function() {
+            document.querySelector('textarea[name="input_text"]').value = ''; // Clear the textarea
+            document.querySelector('.result-container p').innerHTML = ''; // Clear the result area
+        });
+
+        document.getElementById('correct-text-btn').addEventListener('click', function() {
+            const inputText = document.querySelector('textarea[name="input_text"]').value;
+
+            // Send the input text to the server to get the corrected version
+            fetch('/auto-correct', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ text: inputText }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Update the result container with the corrected text
+                document.querySelector('.result-container p').innerHTML = data.corrected_text;
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+    
+</body>
+</html>
