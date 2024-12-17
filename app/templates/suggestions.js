@@ -1,67 +1,43 @@
-function showSuggestions(wordElement) {
-    // Retrieve suggestions directly from the title attribute
-    const suggestionsHTML = wordElement.getAttribute('title');
-    const suggestionBox = document.createElement('div');
-    suggestionBox.classList.add('suggestion-box');
+// Function to show the suggestion box when hovering over a misspelled or grammar-error word
+document.addEventListener("DOMContentLoaded", function () {
+    // Select all misspelled and grammar error spans
+    const spellingErrors = document.querySelectorAll('.spelling-error');
+    const grammarErrors = document.querySelectorAll('.grammar-error');
 
-    // Convert HTML string to DOM elements
-    const tempDiv = document.createElement('div');
-    tempDiv.innerHTML = suggestionsHTML;
-    const suggestions = tempDiv.children;
-
-    // Add suggestions to the suggestion box
-    Array.from(suggestions).forEach(suggestionElement => {
-        suggestionElement.addEventListener('click', function() {
-            applySuggestion(wordElement, suggestionElement.textContent);
+    // Event listener for hovering over spelling errors
+    spellingErrors.forEach(error => {
+        error.addEventListener('mouseenter', function () {
+            const suggestionBox = this.querySelector('.suggestion-box');
+            if (suggestionBox) suggestionBox.style.display = 'block'; // Ensure it's shown
         });
 
-        suggestionElement.addEventListener('keydown', function(e) {
-            if (e.key === 'Enter') {
-                applySuggestion(wordElement, suggestionElement.textContent);
-            }
+        error.addEventListener('mouseleave', function () {
+            const suggestionBox = this.querySelector('.suggestion-box');
+            if (suggestionBox) suggestionBox.style.display = 'none'; // Hide suggestion box
+        });
+    });
+
+    // Event listener for hovering over grammar errors
+    grammarErrors.forEach(error => {
+        error.addEventListener('mouseenter', function () {
+            const suggestionBox = this.querySelector('.suggestion-box');
+            if (suggestionBox) suggestionBox.style.display = 'block'; 
         });
 
-        suggestionBox.appendChild(suggestionElement);
+        error.addEventListener('mouseleave', function () {
+            const suggestionBox = this.querySelector('.suggestion-box');
+            if (suggestionBox) suggestionBox.style.display = 'none'; 
+        });
     });
 
-    // Remove any existing suggestion box and add the new one
-    removeExistingSuggestionBox();
-    wordElement.appendChild(suggestionBox);
-
-    // Position the suggestion box
-    const rect = wordElement.getBoundingClientRect();
-    suggestionBox.style.position = 'absolute';
-    suggestionBox.style.top = `${rect.bottom + window.scrollY}px`;
-    suggestionBox.style.left = `${rect.left}px`;
-
-    // Handle arrow key navigation
-    handleArrowNavigation(suggestionBox);
-}
-
-function applySuggestion(wordElement, suggestionText) {
-    // Replace the incorrect word with the selected suggestion
-    wordElement.innerHTML = suggestionText;
-    removeExistingSuggestionBox();
-}
-
-function removeExistingSuggestionBox() {
-    const existingSuggestionBox = document.querySelector('.suggestion-box');
-    if (existingSuggestionBox) {
-        existingSuggestionBox.remove();
-    }
-}
-
-function handleArrowNavigation(suggestionBox) {
-    const suggestionElements = suggestionBox.querySelectorAll('div');
-    let currentIndex = -1;
-
-    suggestionBox.addEventListener('keydown', function(e) {
-        if (e.key === 'ArrowDown') {
-            currentIndex = (currentIndex + 1) % suggestionElements.length;
-            suggestionElements[currentIndex].focus();
-        } else if (e.key === 'ArrowUp') {
-            currentIndex = (currentIndex - 1 + suggestionElements.length) % suggestionElements.length;
-            suggestionElements[currentIndex].focus();
-        }
-    });
-}
+    // Function to handle the correction when a suggestion is clicked
+    const suggestionItems = document.querySelectorAll('.suggestion');
+    suggestionItems.forEach(item => {
+        item.addEventListener('click', function () {
+            const suggestedText = this.innerText;
+            // Replace the error word with the selected suggestion
+            const errorSpan = this.closest('span');
+            errorSpan.innerHTML = suggestedText; // Update the error word with the correct suggestion
+        });
+    });
+});
