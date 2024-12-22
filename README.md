@@ -30,5 +30,14 @@ This repository contains a **Sinhala Spelling Corrector and Grammar Checker** de
 ## Contribution
 Created by,  
 Bandara R.M.S.C.A. (2020e020) & 
-Lakshan W.G. (2020e079) 
+Lakshan W.G. (2020e079)   
+
+---  
+*noted: corrected forms of grammar_checker.py and spelling_corrector.py are in*
+```bash
+spelling-corrector-and-grammar-checker-for-sinhala-language
+├── app
+│   ├── grammar_checker.py      # Grammar checking implementation
+│   ├── spelling_corrector.py   # Spelling correction implementation
+
 
