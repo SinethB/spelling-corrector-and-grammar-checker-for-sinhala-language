@@ -29,8 +29,8 @@ This repository contains a **Sinhala Spelling Corrector and Grammar Checker** de
    ```
 ## Contribution
 Created by,  
-Bandara R.M.S.C.A. (2020e020) & 
-Lakshan W.G. (2020e079)   
+Bandara R.M.S.C.A. (2020e020) & : https://github.com/SinethB  
+Lakshan W.G. (2020e079) : https://github.com/GayanthaL  
 
 ---  
 *noted: corrected forms of grammar_checker.py and spelling_corrector.py are in*
