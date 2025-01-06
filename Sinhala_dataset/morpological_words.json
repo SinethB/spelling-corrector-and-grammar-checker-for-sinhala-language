@@ -1,0 +1,439 @@
+[
+    {
+        "base_word": "මම",
+        "morphological_variations": ["මගේ", "මට", "මෙන්", "මාව", "මගින්"]
+    },
+    {
+        "base_word": "ඔහු",
+        "morphological_variations": ["ඔහුගේ", "ඔහුට", "ඔහුව", "ඔහුගෙන්"]
+    },
+    {
+        "base_word": "ඇය",
+        "morphological_variations": ["ඇගේ", "ඇයට", "ඇයව", "ඇයගෙන්"]
+    },
+    {
+        "base_word": "කමල්",
+        "morphological_variations": ["කමල්ගේ", "කමල්ට", "කමල්ව", "කමල්ගෙන්"]
+    },
+    {
+        "base_word": "පොත",
+        "morphological_variations": ["පොතේ", "පොතකට", "පොතව", "පොතෙන්"]
+    },
+    {
+        "base_word": "පාසල",
+        "morphological_variations": ["පාසලේ", "පාසලට", "පාසලෙන්", "පාසල්"]
+    },
+    {
+        "base_word": "ගෙදර",
+        "morphological_variations": ["ගෙදරට", "ගෙදරින්", "ගෙදරේ", "ගෙවල්"]
+    },
+    {
+        "base_word": "අපි",
+        "morphological_variations": ["අපේ", "අපට", "අපව", "අපගෙන්"]
+    },
+    {
+        "base_word": "අච්චි",
+        "morphological_variations": ["අච්චිගේ", "අච්චිට", "අච්චිව", "අච්චිගෙන්"]
+    },
+    {
+        "base_word": "කතා",
+        "morphological_variations": ["කතාකළා", "කතාකරනවා", "කතාකළේ", "කතාකිරීමට"]
+    },
+    {
+        "base_word": "කාලය",
+        "morphological_variations": ["කාලයට", "කාලයෙන්", "කාලයේ", "කාලයන්"]
+    },
+    {
+        "base_word": "පෝෂණය",
+        "morphological_variations": ["පෝෂණයට", "පෝෂණයෙන්", "පෝෂණයේ", "පෝෂණය කරන"]
+    },
+    {
+        "base_word": "දෙමව්පියෝ",
+        "morphological_variations": ["දෙමව්පියන්", "දෙමව්පියන්ගේ", "දෙමව්පියන්ට", "දෙමව්පියන්ව"]
+    },
+    {
+        "base_word": "පැමිණෙනවා",
+        "morphological_variations": ["පැමිණී", "පැමිණුණා", "පැමිණීමට", "පැමිණෙන්න"]
+    },
+    {
+        "base_word": "දවස",
+        "morphological_variations": ["දවසේ", "දවස්", "දවසට", "දවස්වල"]
+    },
+    {
+        "base_word": "මහත්තයා",
+        "morphological_variations": ["මහත්තයගෙන්", "මහත්තයාට", "මහත්තයගේ", "මහත්තා"]
+    },
+    {
+        "base_word": "අවුරුද්ද",
+        "morphological_variations": ["අවුරුද්දේ", "අවුරුදු", "අවුරුද්දට", "අවුරුදුකාලේ"]
+    },
+    {
+        "base_word": "දහම",
+        "morphological_variations": ["දහමට", "දහමෙන්", "දහමක්", "දහම්"]
+    },
+    {
+        "base_word": "දරුවා",
+        "morphological_variations": ["දරුවාගේ", "දරුවාට", "දරුවාව", "දරුවන්"]
+    },
+    {
+        "base_word": "සතුට",
+        "morphological_variations": ["සතුටින්", "සතුටු", "සතුටට", "සතුටක්"]
+    },
+    {
+        "base_word": "කම",
+        "morphological_variations": ["කමට", "කමෙන්", "කම්", "කමක්"]
+    },
+    {
+        "base_word": "කාලය",
+        "morphological_variations": ["කාලයෙහි", "කාලයට", "කාලයෙන්", "කාලයන්"]
+    },
+    {
+        "base_word": "වෙද",
+        "morphological_variations": ["වෙදගේ", "වෙදට", "වෙදව", "වෙදගෙන්"]
+    },
+    {
+        "base_word": "රෝහල",
+        "morphological_variations": ["රෝහලේ", "රෝහලට", "රෝහලෙන්", "රෝහල්"]
+    },
+    {
+        "base_word": "මිනිසා",
+        "morphological_variations": ["මිනිස්", "මිනිසාගේ", "මිනිස්සු", "මිනිසාට"]
+    },
+    {
+        "base_word": "පියවර",
+        "morphological_variations": ["පියවරේ", "පියවරක්", "පියවරවල", "පියවරකට"]
+    },
+    {
+        "base_word": "විමසනවා",
+        "morphological_variations": ["විමසීම", "විමසා", "විමසන්න", "විමසයි"]
+    },
+    {
+        "base_word": "ඉගෙනුම",
+        "morphological_variations": ["ඉගෙනුමට", "ඉගෙනුම්", "ඉගෙනුමෙන්", "ඉගෙනුමක්"]
+    },
+    {
+        "base_word": "හරි",
+        "morphological_variations": ["හරියට", "හරිය", "හරියි", "හරිම"]
+    },
+    {
+        "base_word": "පෙර",
+        "morphological_variations": ["පෙරදී", "පෙරවීම", "පෙරට", "පෙරවෙනවා"]
+    },
+    {
+        "base_word": "සාර්ථකත්වය",
+        "morphological_variations": ["සාර්ථකත්වයට", "සාර්ථකත්වයෙන්", "සාර්ථකත්වයක්", "සාර්ථක"]
+    },
+    {
+        "base_word": "අරමුණ",
+        "morphological_variations": ["අරමුණේ", "අරමුණට", "අරමුණක්", "අරමුනෙන්"]
+    },
+    {
+        "base_word": "සංස්කෘතිය",
+        "morphological_variations": ["සංස්කෘතියේ", "සංස්කෘතියක්", "සංස්කෘති", "සංස්කෘතියට"]
+    },
+    {
+        "base_word": "නීතිය",
+        "morphological_variations": ["නීතියේ", "නීති", "නීතියට", "නීතියෙන්"]
+    },
+    {
+        "base_word": "පද්ධතිය",
+        "morphological_variations": ["පද්ධතියේ", "පද්ධතියකට", "පද්ධති", "පද්ධතියෙන්"]
+    },
+    {
+        "base_word": "ආරක්ෂාව",
+        "morphological_variations": ["ආරක්ෂාවක්", "ආරක්ෂාවෙන්", "ආරක්ෂා", "ආරක්ෂාකරනවා"]
+    },
+    {
+        "base_word": "අදහස",
+        "morphological_variations": ["අදහසක්", "අදහස්", "අදහසට", "අදහසෙන්"]
+    },
+    {
+        "base_word": "ගෞරවය",
+        "morphological_variations": ["ගෞරවයෙන්", "ගෞරවයට", "ගෞරවයක්", "ගෞරව"]
+    },
+    {
+        "base_word": "ඉරණම",
+        "morphological_variations": ["ඉරණමට", "ඉරණමක්", "ඉරණමෙන්", "ඉරණමක්"]
+    },
+    {
+        "base_word": "විශ්වාසය",
+        "morphological_variations": ["විශ්වාසයෙන්", "විශ්වාසයට", "විශ්වාසයක්", "විශ්වාස"]
+    },
+    {
+        "base_word": "අහස",
+        "morphological_variations": ["අහසේ", "අහසට", "අහසෙන්", "අහසක්"]
+    },
+    {
+        "base_word": "කල",
+        "morphological_variations": ["කලට", "කලේ", "කලහ", "කලාව"]
+    },
+    {
+        "base_word": "උදෑසන",
+        "morphological_variations": ["උදෑසනට", "උදෑසනෙන්", "උදෑසනේ", "උදෑසනක්"]
+    },
+    {
+        "base_word": "බොහෝ",
+        "morphological_variations": ["බොහෝකම්", "බොහෝකාරක", "බොහෝකාර", "බොහෝපොත"]
+    },
+    {
+        "base_word": "අලුත්",
+        "morphological_variations": ["අලුත්කම්", "අලුත්කාර", "අලුත්ම", "අලුත්ට"]
+    },
+    {
+        "base_word": "ඉස්සර",
+        "morphological_variations": ["ඉස්සරට", "ඉස්සරේ", "ඉස්සරක්", "ඉස්සරම"]
+    },
+    {
+        "base_word": "ගණන",
+        "morphological_variations": ["ගණනක්", "ගණනට", "ගණනෙන්", "ගණනාවේ"]
+    },
+    {
+        "base_word": "හේතුව",
+        "morphological_variations": ["හේතුවක්", "හේතුවට", "හේතුවෙන්", "හේතුවේ"]
+    },
+    {
+        "base_word": "කාලගුණය",
+        "morphological_variations": ["කාලගුණයට", "කාලගුණයෙන්", "කාලගුණයක්", "කාලගුණයේ"]
+    },
+    {
+        "base_word": "පුද්ගලයා",
+        "morphological_variations": ["පුද්ගලයාගේ", "පුද්ගලයාට", "පුද්ගලයාව", "පුද්ගලයෙක්"]
+    },
+    {
+        "base_word": "නියමය",
+        "morphological_variations": ["නියමයෙහි", "නියමයට", "නියමයෙන්", "නියමයක්"]
+    },
+    {
+        "base_word": "සුභාෂිතය",
+        "morphological_variations": ["සුභාෂිතයට", "සුභාෂිතයෙන්", "සුභාෂිතයෙහි", "සුභාෂිතයක්"]
+    },
+    {
+        "base_word": "ආරෝග්‍යය",
+        "morphological_variations": ["ආරෝග්‍යයට", "ආරෝග්‍යයෙන්", "ආරෝග්‍යයක", "ආරෝග්‍යයේ"]
+    },
+    {
+        "base_word": "නියමිතය",
+        "morphological_variations": ["නියමිතයට", "නියමිතයෙන්", "නියමිතයෙහි", "නියමිතයක්"]
+    },
+    {
+        "base_word": "පසුබැසීම",
+        "morphological_variations": ["පසුබැසීමට", "පසුබැසී", "පසුබැසීමේ", "පසුබැසීමක්"]
+    },
+    {
+        "base_word": "අඩංගුව",
+        "morphological_variations": ["අඩංගුවේ", "අඩංගුවකට", "අඩංගුවෙන්", "අඩංගුවක්"]
+    },
+    {
+        "base_word": "කලාපය",
+        "morphological_variations": ["කලාපයට", "කලාපයෙන්", "කලාපයෙහි", "කලාපයක්"]
+    },
+    {
+        "base_word": "කළුවරය",
+        "morphological_variations": ["කළුවරයට", "කළුවරයෙන්", "කළුවරයෙහි", "කළුවරයක්"]
+    },
+    {
+        "base_word": "පැනවීම",
+        "morphological_variations": ["පැනවීමට", "පැනවා", "පැනවී", "පැනවීම්"]
+    },
+    {
+        "base_word": "ලෝකය",
+        "morphological_variations": ["ලෝකයට", "ලෝකයෙන්", "ලෝකයෙහි", "ලෝකයක්"]
+    },
+    {
+        "base_word": "හැඩය",
+        "morphological_variations": ["හැඩයට", "හැඩයෙන්", "හැඩයෙහි", "හැඩයක්"]
+    },
+    {
+        "base_word": "ඉරණම",
+        "morphological_variations": ["ඉරණමට", "ඉරණමෙන්", "ඉරණමක්", "ඉරණමයි"]
+    },
+    {
+        "base_word": "මඟ",
+        "morphological_variations": ["මඟට", "මඟෙන්", "මඟුල", "මඟක්"]
+    },
+    {
+        "base_word": "ගීතය",
+        "morphological_variations": ["ගීතයට", "ගීතයෙන්", "ගීතයෙහි", "ගීතයක්"]
+    },
+    {
+        "base_word": "කඩ",
+        "morphological_variations": ["කඩට", "කඩයෙන්", "කඩක්", "කඩේ"]
+    },
+    {
+        "base_word": "ඇහැරීම",
+        "morphological_variations": ["ඇහැරීමට", "ඇහැරි", "ඇහැරී", "ඇහැරීමක්"]
+    },
+    {
+        "base_word": "අනුව",
+        "morphological_variations": ["අනුවක්", "අනුවට", "අනුවෙන්", "අනුවේ"]
+    },
+    {
+        "base_word": "සෙරී",
+        "morphological_variations": ["සෙරියට", "සෙරියෙන්", "සෙරියක්", "සෙරියම"]
+    },
+    {
+        "base_word": "නැවුම්",
+        "morphological_variations": ["නැවුම්කම්", "නැවුම්ම", "නැවුම්ට", "නැවුම්ව"]
+    },
+    {
+        "base_word": "පසු",
+        "morphological_variations": ["පසුබැසීම", "පසුතැව", "පසුබෑම", "පසුලෝකය"]
+    },
+    {
+        "base_word": "කම",
+        "morphological_variations": ["කමකට", "කමෙන්", "කමක්", "කමයි"]
+    },
+    {
+        "base_word": "කතා",
+        "morphological_variations": ["කතාකල", "කතාකර", "කතාකරනවා", "කතාකරුවෙක්"]
+    },
+    {
+        "base_word": "සතුට",
+        "morphological_variations": ["සතුටක්", "සතුටට", "සතුටින්", "සතුටු"]
+    },
+    {
+        "base_word": "ආදරය",
+        "morphological_variations": ["ආදරයට", "ආදරයෙන්", "ආදරයක්", "ආදරයේ"]
+    },
+    {
+        "base_word": "සැලසුම",
+        "morphological_variations": ["සැලසුමට", "සැලසුමෙන්", "සැලසුමක්", "සැලසුමටයි"]
+    },
+    {
+        "base_word": "නිදහස",
+        "morphological_variations": ["නිදහසට", "නිදහසෙන්", "නිදහසක්", "නිදහසේ"]
+    },
+    {
+        "base_word": "ඉල්ලීම",
+        "morphological_variations": ["ඉල්ලීමට", "ඉල්ලී", "ඉල්ලීමක්", "ඉල්ලීමෙන්"]
+    },
+    {
+        "base_word": "ජාතික",
+        "morphological_variations": ["ජාතිකයා", "ජාතිකයාට", "ජාතිකයන්ට", "ජාතිකයන්"]
+    },
+    {
+        "base_word": "ඉතා",
+        "morphological_variations": ["ඉතාම", "ඉතාමත්", "ඉතාමත්ම", "ඉතාමෙන්"]
+    },
+    {
+        "base_word": "මනමාලිකාව",
+        "morphological_variations": ["මනමාලිකාවට", "මනමාලිකාවේ", "මනමාලිකාවෙන්", "මනමාලිකාවක්"]
+    },
+    {
+        "base_word": "සමඟ",
+        "morphological_variations": ["සමඟින්", "සමඟට", "සමඟින්ම", "සමඟක"]
+    },
+    {
+        "base_word": "එහි",
+        "morphological_variations": ["එහිව", "එහිදී", "එහිත්", "එහිම"]
+    },
+    {
+        "base_word": "සහය",
+        "morphological_variations": ["සහයෝ", "සහයැයි", "සහයම", "සහයට"]
+    },
+    {
+        "base_word": "කාලය",
+        "morphological_variations": ["කාලයට", "කාලයෙන්", "කාලයෙහි", "කාලයක්"]
+    },
+    {
+        "base_word": "පක්ෂය",
+        "morphological_variations": ["පක්ෂයට", "පක්ෂයෙන්", "පක්ෂයෙහි", "පක්ෂයක්"]
+    },
+    {
+        "base_word": "ගැහැණිය",
+        "morphological_variations": ["ගැහැණියට", "ගැහැණියෙන්", "ගැහැණියක්", "ගැහැණියාව"]
+    },
+    {
+        "base_word": "කමක්",
+        "morphological_variations": ["කමක්", "කමකට", "කමක්ද", "කමක්වා"]
+    },
+    {
+        "base_word": "මඩ",
+        "morphological_variations": ["මඩට", "මඩෙන්", "මඩක්", "මඩේ"]
+    },
+    {
+        "base_word": "විසඳුම",
+        "morphological_variations": ["විසඳුමට", "විසඳුමෙන්", "විසඳුමක්", "විසඳුමටයි"]
+    },
+    {
+        "base_word": "මහත්තය",
+        "morphological_variations": ["මහත්තයා", "මහත්තයාට", "මහත්තයන්", "මහත්තයෙකු"]
+    },
+    {
+        "base_word": "අභියස",
+        "morphological_variations": ["අභියසට", "අභියසින්", "අභියසක්", "අභියසයේ"]
+    },
+    {
+        "base_word": "නිර්මාණය",
+        "morphological_variations": ["නිර්මාණයට", "නිර්මාණයෙන්", "නිර්මාණයක්", "නිර්මාණයේ"]
+    },
+    {
+        "base_word": "සම්පත්",
+        "morphological_variations": ["සම්පත්කම්", "සම්පත්තු", "සම්පත්ය", "සම්පත්කර"]
+    },
+    {
+        "base_word": "උපකාරය",
+        "morphological_variations": ["උපකාරයට", "උපකාරයෙන්", "උපකාරයක්", "උපකාරකම්"]
+    },
+    {
+        "base_word": "සදාකාලික",
+        "morphological_variations": ["සදාකාලිකයක්", "සදාකාලිකයට", "සදාකාලිකයෙන්", "සදාකාලිකය"]
+    },
+    {
+        "base_word": "ලෝක",
+        "morphological_variations": ["ලෝකය", "ලෝකයන්", "ලෝකයක්", "ලෝකයට"]
+    },
+    {
+        "base_word": "තැන",
+        "morphological_variations": ["තැනට", "තැනෙන්", "තැනක්", "තැනේ"]
+    },
+    {
+        "base_word": "ඉඩම",
+        "morphological_variations": ["ඉඩමට", "ඉඩමෙන්", "ඉඩමක්", "ඉඩමක"]
+    },
+    {
+        "base_word": "පෙරමුණ",
+        "morphological_variations": ["පෙරමුණට", "පෙරමුණෙන්", "පෙරමුණක්", "පෙරමුණේ"]
+    },
+    {
+        "base_word": "අවස්ථාව",
+        "morphological_variations": ["අවස්ථාවට", "අවස්ථාවෙන්", "අවස්ථාවක්", "අවස්ථාවේ"]
+    },
+    {
+        "base_word": "කර්මාන්ත",
+        "morphological_variations": ["කර්මාන්තයට", "කර්මාන්තයෙන්", "කර්මාන්තයක්", "කර්මාන්තයේ"]
+    },
+    {
+        "base_word": "ඉගෙනීම",
+        "morphological_variations": ["ඉගෙනීමට", "ඉගෙනී", "ඉගෙනීම්", "ඉගෙනීමෙන්"]
+    },
+    {
+        "base_word": "අභිරුචිය",
+        "morphological_variations": ["අභිරුචියට", "අභිරුචියේ", "අභිරුචියෙන්", "අභිරුචියක්"]
+    },
+    {
+        "base_word": "සංවිධානය",
+        "morphological_variations": ["සංවිධානයට", "සංවිධානයෙන්", "සංවිධානයක්", "සංවිධානයේ"]
+    },
+    {
+        "base_word": "පිළිවෙත",
+        "morphological_variations": ["පිළිවෙතට", "පිළිවෙතෙන්", "පිළිවෙතක්", "පිළිවෙතේ"]
+    },
+    {
+        "base_word": "ජය",
+        "morphological_variations": ["ජයග්‍රහණය", "ජයග්‍රහණයට", "ජයග්‍රහණයෙන්", "ජයග්‍රහණයක්"]
+    },
+    {
+        "base_word": "නිමක්",
+        "morphological_variations": ["නිමක්ද", "නිමක්වා", "නිමක්තා", "නිමක්ම"]
+    },
+    {
+        "base_word": "පාර",
+        "morphological_variations": ["පාරට", "පාරෙන්", "පාරක්", "පාරේ"]
+    },
+    {
+        "base_word": "හිත",
+        "morphological_variations": ["හිතට", "හිතේ", "හිතක්", "හිතුව"]
+    }
+]
+   
